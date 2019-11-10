@@ -1,0 +1,20 @@
+{
+  "name": "ASPNetCoreREactNET-Example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wbp": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "expose-loader": "^0.7.5",
+    "jsx": "^0.9.89",
+    "loader": "^2.1.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
