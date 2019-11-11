@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <None Include="wwwroot\Images\runningCat.jpg" />
   </ItemGroup>
 
 </Project>

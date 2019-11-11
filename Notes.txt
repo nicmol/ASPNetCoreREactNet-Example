@@ -1,0 +1,36 @@
+ASP.NET Core 2.0 MVC with ReactJS.Net
+
+
+1. Start with an empty ASP.NET Core Web Application
+
+2.Startup.cs - configuration same as ASP.NET
+
+3.Add folders Model-userModel
+	Add Controllers-HomeController
+	Views-Home/Index
+
+4.setup ReactJS.Net
+	NuGet package called React.Aspnet package
+	Startup.cs -services.AddReact();
+	_ViewImports.cshtml - @using React.AspNet
+
+5. npm init -y creates package.json
+6.npm install webpack --save-dev
+7. webpack.config.js file create
+8. Installed 2 more packages for newer versions
+	npm install --save-dev expose-loader
+	npm install --save-dev jsx-loader
+
+9.create source folder
+	add JS files
+10. Add JSX file to Components
+11.Test view -React scripts
+12.npm run wbp(start)
+
+13. Should Source folder go in the wwwroot folder?
+
+Resources:
+https://reactjs.net/
+https://medium.com/@mirela95/asp-net-core-2-0-mvc-with-reactjs-net-basic-setup-and-example-template-4811b10b114a
+https://github.com/mdamyanova/ASP.NET-Core-MVC-ReactJS.NET
+
